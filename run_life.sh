@@ -10,6 +10,8 @@ echo "Hello $name !"
 
 echo "Let's see the computer play the Game of Life"
 cd "src/games"
-PROG_NAME="life.cpp"
+
+echo "Sorry, don't have clang or gcc on your machines so can't run the Game of Life"
+
 
 
