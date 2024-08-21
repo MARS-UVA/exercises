@@ -1,4 +1,4 @@
-#!/bin/sh
+!/bin/sh
 
 #Linux commands in the shell script:
 var1="Hello World"
