@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaExercises/JavaExercises.iml" filepath="$PROJECT_DIR$/JavaExercises/JavaExercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/MARS.iml" filepath="$PROJECT_DIR$/.idea/MARS.iml" />
     </modules>
   </component>

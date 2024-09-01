@@ -1,0 +1,94 @@
+{
+    "holidays": [
+        {
+            "date": "2020-01-01",
+            "event": "New Year's"
+        },
+        {
+            "date": "2020-1-25",
+            "event": "Boonta Eve"
+        },
+        {
+            "date": "2020-02-14",
+            "event": "Valentine's"
+        },
+        {
+            "date": "2020-10-19",
+            "event": "Durin's Day"
+        },
+        {
+            "date": "2020-10-31",
+            "event": "Halloween"
+        },
+        {
+            "date": "2021-12-25",
+            "event": "Hello World"
+        },
+        {
+            "date": "2020-12-25",
+            "event": "Christmas"
+        }
+    ],
+    "name": "Jasper",
+    "messages": [
+        "Dayum Jasper! You're a party animal!",
+        "Hulla baba who?",
+        "Can I buy a second serve? I'm not done yet!"
+    ],
+    "age": 21,
+    "city": "San Fransokyo",
+    "events": [
+        {
+            "my_events": [
+                {
+                    "date": "2024-11-30",
+                    "event": "How to train your robot class",
+                    "location": "Charlottesville, VA",
+                    "description": "I'm not a robot, I'm a human!",
+                    "xp": 100
+                },
+                {
+                    "date": "2024-11-15",
+                    "event": "Eras Tour",
+                    "location": "Toronto",
+                    "description": "Copilot thought it was by BTS, dayum son try training harder next time :(",
+                    "xp": 50
+                },
+                {
+                    "date": "2024-11-30",
+                    "event": "How to train your robot class",
+                    "location": "Charlottesville, VA",
+                    "description": "I'm not a robot, I'm a human!",
+                    "xp": 27
+                },
+                {
+                    "date": "2024-11-30",
+                    "event": "Commonwealth Cup",
+                    "location": "Charlottesville, VA",
+                    "description": "Let's buy more than hoolahoops for football training please, thank you.",
+                    "xp": 3
+                }
+            ],
+            "mars_events": [
+                {
+                    "date": "2024-10-15",
+                    "event": "Pickleball Partay?",
+                    "location": "Snyder Courts",
+                    "description": "We love sports, trust!"
+                },
+                {
+                    "date": "2024-10-25",
+                    "event": "Computer vs. Mech Volleyball",
+                    "location": "Memorial Gym",
+                    "description": "I told you we love sports!"
+                },
+                {
+                    "date": "2024-11-23",
+                    "event": "Rivanna Hike",
+                    "location": "Rivanna River Trail;",
+                    "description": "And the outdoors!"
+                }
+            ]
+        }
+    ]
+}
