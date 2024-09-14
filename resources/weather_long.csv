@@ -1,0 +1,151 @@
+City,Month,Type,Value
+New York,January,temperature,1.5
+New York,January,humidity,65
+New York,January,precipitation,78
+New York,January,wind speed,12.5
+New York,January,air quality index,42
+New York,February,temperature,2.3
+New York,February,humidity,62
+New York,February,precipitation,65
+New York,February,wind speed,14.2
+New York,February,air quality index,55
+New York,March,temperature,5.7
+New York,March,humidity,58
+New York,March,precipitation,72
+New York,March,wind speed,15.8
+New York,March,air quality index,48
+New York,April,temperature,10.2
+New York,April,humidity,55
+New York,April,precipitation,80
+New York,April,wind speed,18.1
+New York,April,air quality index,60
+New York,May,temperature,15.1
+New York,May,humidity,60
+New York,May,precipitation,85
+New York,May,wind speed,12.3
+New York,May,air quality index,65
+New York,June,temperature,20.3
+New York,June,humidity,65
+New York,June,precipitation,90
+New York,June,wind speed,16.5
+New York,June,air quality index,70
+London,January,temperature,4.2
+London,January,humidity,80
+London,January,precipitation,60
+London,January,wind speed,9.5
+London,January,air quality index,35
+London,February,temperature,5.0
+London,February,humidity,78
+London,February,precipitation,58
+London,February,wind speed,10.7
+London,February,air quality index,42
+London,March,temperature,7.8
+London,March,humidity,75
+London,March,precipitation,65
+London,March,wind speed,11.8
+London,March,air quality index,40
+London,April,temperature,11.5
+London,April,humidity,70
+London,April,precipitation,75
+London,April,wind speed,13.0
+London,April,air quality index,45
+London,May,temperature,14.7
+London,May,humidity,72
+London,May,precipitation,80
+London,May,wind speed,12.0
+London,May,air quality index,48
+London,June,temperature,18.4
+London,June,humidity,75
+London,June,precipitation,90
+London,June,wind speed,14.5
+London,June,air quality index,50
+Tokyo,January,temperature,6.1
+Tokyo,January,humidity,55
+Tokyo,January,precipitation,45
+Tokyo,January,wind speed,8.5
+Tokyo,January,air quality index,25
+Tokyo,February,temperature,7.5
+Tokyo,February,humidity,57
+Tokyo,February,precipitation,50
+Tokyo,February,wind speed,9.8
+Tokyo,February,air quality index,28
+Tokyo,March,temperature,10.2
+Tokyo,March,humidity,60
+Tokyo,March,precipitation,55
+Tokyo,March,wind speed,10.5
+Tokyo,March,air quality index,32
+Tokyo,April,temperature,14.8
+Tokyo,April,humidity,63
+Tokyo,April,precipitation,70
+Tokyo,April,wind speed,12.1
+Tokyo,April,air quality index,38
+Tokyo,May,temperature,18.7
+Tokyo,May,humidity,65
+Tokyo,May,precipitation,80
+Tokyo,May,wind speed,14.0
+Tokyo,May,air quality index,40
+Tokyo,June,temperature,22.1
+Tokyo,June,humidity,68
+Tokyo,June,precipitation,85
+Tokyo,June,wind speed,15.2
+Tokyo,June,air quality index,45
+Sydney,January,temperature,23.0
+Sydney,January,humidity,70
+Sydney,January,precipitation,90
+Sydney,January,wind speed,17.5
+Sydney,January,air quality index,30
+Sydney,February,temperature,22.5
+Sydney,February,humidity,72
+Sydney,February,precipitation,85
+Sydney,February,wind speed,16.5
+Sydney,February,air quality index,32
+Sydney,March,temperature,20.8
+Sydney,March,humidity,68
+Sydney,March,precipitation,75
+Sydney,March,wind speed,15.5
+Sydney,March,air quality index,35
+Sydney,April,temperature,18.9
+Sydney,April,humidity,65
+Sydney,April,precipitation,60
+Sydney,April,wind speed,13.8
+Sydney,April,air quality index,38
+Sydney,May,temperature,15.2
+Sydney,May,humidity,60
+Sydney,May,precipitation,55
+Sydney,May,wind speed,12.5
+Sydney,May,air quality index,40
+Sydney,June,temperature,12.0
+Sydney,June,humidity,58
+Sydney,June,precipitation,50
+Sydney,June,wind speed,10.5
+Sydney,June,air quality index,42
+Mumbai,January,temperature,24.3
+Mumbai,January,humidity,75
+Mumbai,January,precipitation,20
+Mumbai,January,wind speed,7.5
+Mumbai,January,air quality index,80
+Mumbai,February,temperature,25.1
+Mumbai,February,humidity,78
+Mumbai,February,precipitation,30
+Mumbai,February,wind speed,8.5
+Mumbai,February,air quality index,85
+Mumbai,March,temperature,27.8
+Mumbai,March,humidity,80
+Mumbai,March,precipitation,35
+Mumbai,March,wind speed,9.5
+Mumbai,March,air quality index,90
+Mumbai,April,temperature,29.7
+Mumbai,April,humidity,85
+Mumbai,April,precipitation,50
+Mumbai,April,wind speed,12.0
+Mumbai,April,air quality index,100
+Mumbai,May,temperature,30.9
+Mumbai,May,humidity,88
+Mumbai,May,precipitation,70
+Mumbai,May,wind speed,15.0
+Mumbai,May,air quality index,110
+Mumbai,June,temperature,28.2
+Mumbai,June,humidity,90
+Mumbai,June,precipitation,120
+Mumbai,June,wind speed,20.5
+Mumbai,June,air quality index,120

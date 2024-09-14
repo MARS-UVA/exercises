@@ -15,6 +15,7 @@
     * To compute subsequent skibonacci numbers, we skip the previous one, double the second to last one, and add the third to last one. 
     * However, the function is really slow. I'm trying to compute the 100th skibonacci number and it's taking ages. Help me optimize my code.
     * *Bonus: If you like math, see if you can find the sublinear solution*
+4. (data wrangling) I have some weather data in resources/weather_long.csv.  This data is in *long format*, meaning it has a few columns to represent a lot of fields. Convert it to wide format, where the columns are City, Month, temperature, humidity, precipitation, wind speed, and air quality index. That way, we can more easily see what was going on in each city in each month. Output your data in a file called weather_wide.csv.
 # Java Exercises
 1. (test-driven development) Oh no! Someone wrote a whole load of spaghetti code for our MaxFinder class. It looks like it's passing our 1 unit test, but I'm suspicious of it. 
     - Write tests in the Main class until you find an error.
