@@ -22,7 +22,7 @@
     - Document the max method so people can understand what it does.
     - Fix the code as much as possible to make it clean and consistent, while maintaining the same behavior (refactoring).
 2. (development, unit testing) Our robot has a thermometer, but it reads in Celsius. Write a function to convert Celsius to Fahrenheit.
-    * Formula: T in Fahrenheit = T in Celsius * 1.8 + 32
-    * Make sure the answer is an integer (int)
-    * Write a test for the boiling point of water (100C = 212F) in Tests.py
+    * Formula: T in Fahrenheit = T in Celsius * 1.8 + 32.
+    * Make sure the answer is an integer (int).
+    * Write a test for the boiling point of water (100C = 212F). in Main.java.
     * Write a test for negative values to ensure your code handles those correctly (-10C = 14F).
