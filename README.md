@@ -5,10 +5,15 @@
         * dump immediately (code 2) if we're in construction mode
         * dump later (code 3) if we're not in construction mode
     * If there's 5 cubic inches of regolith or less in the bin, regardless of whether we're in construction mode, we do not dump (code 1).
-2. (optimization) I wrote a function to compute skibonacci numbers. They're computed the following way:
+2. (development, unit testing) Our robot has a thermometer, but it reads in Celsius. Write a function to convert Celsius to Fahrenheit.
+    * Formula: T in Fahrenheit = T in Celsius * 1.8 + 32
+    * Make sure the answer is an integer (int)
+    * Write a test for the boiling point of water (100C = 212F) in Tests.py
+    * Write a test for negative values to ensure your code handles those correctly (-10C = 14F).
+3. (optimization) I wrote a function to compute skibonacci numbers. They're computed the following way:
     * The 0th, 1st, and 2nd skibonacci numbers are 1.
     * To compute subsequent skibonacci numbers, we skip the previous one, double the second to last one, and add the third to last one. 
-    * However, the function is really slow. I'm trying to compute the 100th skibonacci number and it's taking ages. Help me optimize my code. \
+    * However, the function is really slow. I'm trying to compute the 100th skibonacci number and it's taking ages. Help me optimize my code.
     * *Bonus: If you like math, see if you can find the sublinear solution*
 # Java Exercises
 1. (test-driven development) Oh no! Someone wrote a whole load of spaghetti code for our MaxFinder class. It looks like it's passing our 1 unit test, but I'm suspicious of it. 
