@@ -24,6 +24,11 @@ def getSkibonacci(n):
     else:
         return 2 * getSkibonacci(n - 2) + getSkibonacci(n - 3)
 
+# Task 4 - Easy
+def weatherDataParser():
+    # Your code goes here
+    pass
+
 # Task 5 - Easy
 def parseMessageArray(msgArr):
     # You code goes here
@@ -35,7 +40,7 @@ def countAllPossiblePaths(grid):
     pass
 
 # Task 7 - Easy/Med
-def consolidateDuplicateEntries(entries):
+def consolidateDuplicateEntries():
     # Your code goes here
     pass
 
@@ -73,7 +78,7 @@ if __name__ == '__main__':
     if len(sys.argv) < 2:
         raise Exception("Must pass the task number to run")
 
-    functions = [returnStuff, celsiusToFahr, getSkibonacci, parseMessageArray, countAllPossiblePaths, consolidateDuplicateEntries, checkCurrentAndVoltages]
+    functions = [returnStuff, celsiusToFahr, getSkibonacci, weatherDataParser, parseMessageArray, countAllPossiblePaths, consolidateDuplicateEntries, checkCurrentAndVoltages]
 
     taskNo = int(sys.argv[1])  # Read the task number
     if taskNo > len(functions):
@@ -117,7 +122,13 @@ if __name__ == '__main__':
     elif taskNo == 6:
         grid = getRandomizedGrid()
         returnValue = functions[taskNo - 1](grid)
-        print("Task 5 output: ", returnValue)
+        print("Task 6 output: ", returnValue)
+    elif taskNo == 7:
+        returnValue = functions[taskNo - 1]()
+        print("Task 7 output: ", returnValue)
+    elif taskNo == 8:
+        returnValue = functions[taskNo - 1]()
+        print("Task 8 output: ", returnValue)
 
 
 
