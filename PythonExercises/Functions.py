@@ -109,7 +109,7 @@ if __name__ == '__main__':
             raise Exception("For Task 4, pass a comma-separated string for 'msgArr'")
     elif taskNo == 5:
         generateByteString()
-        file_path = "./robot_data.bin"
+        file_path = "../robot_data.bin"
         with open(file_path, 'rb') as file:
             binary_data = file.read()
         returnValue = functions[taskNo - 1](binary_data)

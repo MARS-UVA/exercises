@@ -43,7 +43,7 @@ def generateByteString():
 
     final_byte_string = pre_hash_bytes + hash_value + null_terminator
 
-    with open('robot_data.bin', 'wb') as file:
+    with open('../robot_data.bin', 'wb') as file:
         file.write(final_byte_string)
 
-byte_string = generateByteString()
+generateByteString()
