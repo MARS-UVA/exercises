@@ -15,18 +15,18 @@
      * Execute ```java [ClassName]``` to execute the program (Your class should be Main but you can run the other classes)
 
 # Git Quick Guide
-- git pull
-- git add [file path]
-- git commit -m "Commit message..."
-- git push
+- ```git pull```
+- ```git add [file path]```
+- ```git commit -m "Commit message..."```
+- ```git push```
 - Merging branches
-  * git checkout [branch to merge code into]
-  * git merge [branch to merge from]
+  * ```git checkout [branch to merge code into]```
+  * ```git merge [branch to merge from]```
 - Rollback changes
   * Reverting to previous commit and effectively cancelling out previous commits:
-    - git revert HEAD
-    - git revert HEAD~3
-    - git revert [hash to revert back to]
+    - ```git revert HEAD```
+    - ```git revert HEAD~3```
+    - ```git revert [hash to revert back to]```
   * Reset to previous commit moves the HEAD pointer to the commit corrresponding to the hash
     - git reset [hash to reset HEAD at]
 
