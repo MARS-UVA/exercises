@@ -2,31 +2,31 @@
     "holidays": [
         {
             "date": "2020-01-01",
-            "event": "New Year's"
+            "title": "New Year's"
         },
         {
             "date": "2020-1-25",
-            "event": "Boonta Eve"
+            "title": "Boonta Eve"
         },
         {
             "date": "2020-02-14",
-            "event": "Valentine's"
+            "title": "Valentine's"
         },
         {
             "date": "2020-10-19",
-            "event": "Durin's Day"
+            "title": "Durin's Day"
         },
         {
             "date": "2020-10-31",
-            "event": "Halloween"
+            "title": "Halloween"
         },
         {
             "date": "2021-12-25",
-            "event": "Hello World"
+            "title": "Hello World"
         },
         {
             "date": "2020-12-25",
-            "event": "Christmas"
+            "title": "Christmas"
         }
     ],
     "name": "Jasper",
@@ -42,49 +42,98 @@
             "my_events": [
                 {
                     "date": "2024-11-30",
-                    "event": "How to train your robot class",
+                    "title": "How to train your robot class",
                     "location": "Charlottesville, VA",
                     "description": "I'm not a robot, I'm a human!",
                     "xp": 100
                 },
                 {
                     "date": "2024-11-15",
-                    "event": "Eras Tour",
+                    "title": "Eras Tour",
                     "location": "Toronto",
                     "description": "Copilot thought it was by BTS, dayum son try training harder next time :(",
                     "xp": 50
                 },
                 {
                     "date": "2024-11-30",
-                    "event": "How to train your robot class",
+                    "title": "How to train your robot class",
                     "location": "Charlottesville, VA",
                     "description": "I'm not a robot, I'm a human!",
                     "xp": 27
                 },
                 {
                     "date": "2024-11-30",
-                    "event": "Commonwealth Cup",
+                    "title": "Commonwealth Cup",
                     "location": "Charlottesville, VA",
-                    "description": "Let's buy more than hoolahoops for football training please, thank you.",
-                    "xp": 3
+                    "description": "Let's buy more than hoolahoops for the football team please because Coach E is down 1, thank you.",
+                    "xp": -3
+                },
+                {
+                    "date": "2024-11-30",
+                    "title": "How to train your robot class",
+                    "location": "Charlottesville, VA",
+                    "description": "Why did I register for this class, F1/10 is much better",
+                    "xp": -500
+                },
+                {
+                    "date": "2024-12-16",
+                    "title": "Eras Tour",
+                    "location": "Toronto",
+                    "description": "I had a cruel summer but this concert will be fantastic",
+                    "xp": 250
+                },
+                {
+                    "date": "2025-1-1",
+                    "title": "MARS Workday",
+                    "location": "CVille",
+                    "description": "Oh you thought you had New Years off, mwahaha no you don't. The members have New Year's off tho, I guess I gotta quit being Computer Team lead",
+                    "xp": -50
+                },
+                {
+                    "date": "2025-1-2",
+                    "title": "Cookin",
+                    "location": "CVille",
+                    "description": "Sprinkle Kraft cheese on bread and plop it in the microwave, wallah, thats cooking",
+                    "xp": 20
+                },
+                {
+                    "date": "2025-1-25",
+                    "title": "MARS Workday",
+                    "location": "CVille",
+                    "description": "CEO Kalkwarf said we need to get top 3, so I must do my part to execute the vision!",
+                    "xp": 10000
+                },
+                {
+                    "date": "2025-1-25",
+                    "title": "MARS Workday",
+                    "location": "CVille",
+                    "description": "So its 2am and I'm hungry. Cookout time :(",
+                    "xp": -1345
+                },
+                {
+                    "date": "2025-1-2",
+                    "title": "Cookin",
+                    "location": "CVille",
+                    "description": "Siri, what can I cook with just salt and sugar?",
+                    "xp": 10
                 }
             ],
             "mars_events": [
                 {
                     "date": "2024-10-15",
-                    "event": "Pickleball Partay?",
+                    "title": "Pickleball Partay?",
                     "location": "Snyder Courts",
                     "description": "We love sports, trust!"
                 },
                 {
                     "date": "2024-10-25",
-                    "event": "Computer vs. Mech Volleyball",
+                    "title": "Computer vs. Mech Volleyball",
                     "location": "Memorial Gym",
                     "description": "I told you we love sports!"
                 },
                 {
                     "date": "2024-11-23",
-                    "event": "Rivanna Hike",
+                    "title": "Rivanna Hike",
                     "location": "Rivanna River Trail;",
                     "description": "And the outdoors!"
                 }

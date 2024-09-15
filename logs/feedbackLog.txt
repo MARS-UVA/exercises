@@ -1,0 +1,49 @@
+[INFO] [2024-09-15 12:00:00] Motor 1 current: 3.45 A
+[INFO] [2024-09-15 12:00:00] Motor 2 current: 2.87 A
+[INFO] [2024-09-15 12:00:00] Motor 3 current: 4.12 A
+[INFO] [2024-09-15 12:00:00] Motor 4 current: 1.96 A
+[INFO] [2024-09-15 12:00:00] Sensor 1 feedback: 2.34 V
+[INFO] [2024-09-15 12:00:00] Sensor 2 feedback: 4.12 V
+[INFO] [2024-09-15 12:00:00] Sensor 3 feedback: 0.98 V
+[INFO] [2024-09-15 12:00:00] Sensor 4 feedback: 3.57 V
+[INFO] [2024-09-15 12:00:00] Sensor 5 feedback: 1.65 V
+
+[INFO] [2024-09-15 12:00:01] Motor 1 current: 3.78 A
+[INFO] [2024-09-15 12:00:01] Motor 2 current: 3.02 A
+[INFO] [2024-09-15 12:00:01] Motor 3 current: 4.05 A
+[INFO] [2024-09-15 12:00:01] Motor 4 current: 2.08 A
+[INFO] [2024-09-15 12:00:01] Sensor 1 feedback: 2.45 V
+[INFO] [2024-09-15 12:00:01] Sensor 2 feedback: 4.09 V
+[INFO] [2024-09-15 12:00:01] Sensor 3 feedback: 1.12 V
+[INFO] [2024-09-15 12:00:01] Sensor 4 feedback: 3.62 V
+[INFO] [2024-09-15 12:00:01] Sensor 5 feedback: 1.71 V
+
+[INFO] [2024-09-15 12:00:02] Motor 1 current: 3.55 A
+[INFO] [2024-09-15 12:00:02] Motor 2 current: 2.95 A
+[INFO] [2024-09-15 12:00:02] Motor 3 current: 4.18 A
+[INFO] [2024-09-15 12:00:02] Motor 4 current: 1.89 A
+[INFO] [2024-09-15 12:00:02] Sensor 1 feedback: 2.37 V
+[INFO] [2024-09-15 12:00:02] Sensor 2 feedback: 4.15 V
+[INFO] [2024-09-15 12:00:02] Sensor 3 feedback: 1.08 V
+[INFO] [2024-09-15 12:00:02] Sensor 4 feedback: 3.63 V
+[INFO] [2024-09-15 12:00:02] Sensor 5 feedback: 1.66 V
+
+[INFO] [2024-09-15 12:00:03] Motor 1 current: 3.49 A
+[INFO] [2024-09-15 12:00:03] Motor 2 current: 3.10 A
+[INFO] [2024-09-15 12:00:03] Motor 3 current: 4.22 A
+[INFO] [2024-09-15 12:00:03] Motor 4 current: 1.83 A
+[INFO] [2024-09-15 12:00:03] Sensor 1 feedback: 2.40 V
+[INFO] [2024-09-15 12:00:03] Sensor 2 feedback: 4.08 V
+[INFO] [2024-09-15 12:00:03] Sensor 3 feedback: 1.15 V
+[INFO] [2024-09-15 12:00:03] Sensor 4 feedback: 3.58 V
+[INFO] [2024-09-15 12:00:03] Sensor 5 feedback: 1.68 V
+
+[INFO] [2024-09-15 12:00:04] Motor 1 current: 3.61 A
+[INFO] [2024-09-15 12:00:04] Motor 2 current: 2.88 A
+[INFO] [2024-09-15 12:00:04] Motor 3 current: 4.10 A
+[INFO] [2024-09-15 12:00:04] Motor 4 current: 1.92 A
+[INFO] [2024-09-15 12:00:04] Sensor 1 feedback: 2.33 V
+[INFO] [2024-09-15 12:00:04] Sensor 2 feedback: 4.06 V
+[INFO] [2024-09-15 12:00:04] Sensor 3 feedback: 1.13 V
+[INFO] [2024-09-15 12:00:04] Sensor 4 feedback: 3.60 V
+[INFO] [2024-09-15 12:00:04] Sensor 5 feedback: 1.74 V
