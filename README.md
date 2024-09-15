@@ -3,7 +3,7 @@
 2. To install Python, run ```sudo apt install python3```
 
 # Compilation and Running
-- Python: python [file_name].py taskNo args
+- Python: ```python3 [file_name].py [taskNo] [args]```
      * taskNo - which task you want to run from 1-8
      * args - arguments for the task you are running
           - Task 1: integer number and boolean("true"/"false")
@@ -11,8 +11,8 @@
           - Task 3: integer number
           - Task 4-8: does NOT ake any argument
 - Java:
-     * In JavaExercises/src, execute javac *.java
-     * Execute java [ClassName] to execute the program (Your class should be Main but you can run the other classes)
+     * In JavaExercises/src, execute ```javac *.java```
+     * Execute ```java [ClassName]``` to execute the program (Your class should be Main but you can run the other classes)
 
 # Git Quick Guide
 - git pull
