@@ -20,7 +20,8 @@
     * *Bonus: If you like math, see if you can find the sublinear solution*
 4. (data wrangling) I have some weather data in resources/weather_long.csv.  This data is in *long format*, meaning it has a few columns to represent a lot of fields. Convert it to wide format, where the columns are City, Month, temperature, humidity, precipitation, wind speed, and air quality index. That way, we can more easily see what was going on in each city in each month. Output your data in a file called weather_wide.csv.
 5. (parsing a byte message) Your dumb robot with a wheel and a single arm is receiving a byte message on its serial port and your job is to decode what it means so you can send it up to the user interface. Here is what the byte message looks like:
-        execution flag | motor current values | actuator direction | actuator current value | ultrasound start flag | ultrasound values | ultrasound end flag | led on/off | hash of byte string | null terminator
+
+   execution flag | motor current values | actuator direction | actuator current value | ultrasound start flag | ultrasound values | ultrasound end flag | led on/off | hash of byte string | null terminator
 
    Here is what each field of data should look like:
    -  Execution Flag - should be 1, if not then throw an exception saying "Robot commands must not be executed"
