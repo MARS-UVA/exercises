@@ -11,7 +11,7 @@
           - Task 3: integer number
           - Task 4-8: does NOT ake any argument
 - Java:
-     * In JavaExercises/src, execut javac *.java
+     * In JavaExercises/src, execute javac *.java
      * Execute java [ClassName] to execute the program (Your class should be Main but you can run the other classes)
 
 # Python Exercises
@@ -48,23 +48,23 @@
    -  Hash of Byte String - Hash of everything earlier. Use this to verify that the message came across without corruption.
    -  Null Terminator - indicates that end of a packet and will come with the value "TERM".
 
-  Your job is to parse the stream of bytes and put significant values in an array to return. Here is what your array should include:
+      Your job is to parse the stream of bytes and put significant values in an array to return. Here is what your array should include:
   
-  [Motor Value 1, Motor Value 2, Motor Value 3, Motor Value 4, Actuator Current Value, Ultrasound Values..., LED value]
+      [Motor Value 1, Motor Value 2, Motor Value 3, Motor Value 4, Actuator Current Value, Ultrasound Values..., LED value]
   
-  ** Bonus: Using motor values, decide if robot is going straight or turning and if so, which direction it is turning (right or left). Place that value at the end of the array.
+      ** Bonus: Using motor values, decide if robot is going straight or turning and if so, which direction it is turning (right or left). Place that value at the end of the array.
 
   
 6. (matrix problem) For this problem, you will be given an NxM grid where N and M are randomly selected. There are 0s randomly placed in the grid which represent obstacles. Your robot starts in the top-left hand corner of the grid at position (0,0) and is supposed to get to the bottom-right hand corner (N-1, M-1). Your job is to compute the total number of possible paths that the robot can take without hitting the 0s. If none exist, return 0. Otherwvise, return the number of paths.
 
-  May be helpful to write test cases with example grids.
+      May be helpful to write test cases with example grids.
 
-8. (json read and write) For this problem, you will read in a JSON file with your calendar called events.json. Here is what you need to do:
+7. (json read and write) For this problem, you will read in a JSON file with your calendar called events.json. Here is what you need to do:
    -  Your holidays are out of order. Using the "date" field, reorder them.
    -  You have events on your calendar with the same title. Consolidate those events into a single event.
         * Events with the same 'title' may have different dates. Use the latest date as your new date.
         * Concatenate the descriptions into a single description for your new event.
-9. (read files) Read some ROS logging info in /logs/feedbackLog.txt. In that file, you want to check for 2 conditiojns and report when the condition occurred:
+8. (read files) Read some ROS logging info in /logs/feedbackLog.txt. In that file, you want to check for 2 conditiojns and report when the condition occurred:
    - Check if motor current is above 4 Amps in which case the motor is overworking.
    - Check if sensor output voltage is above 3 V is which case it is being triggered.
    
