@@ -1,6 +1,19 @@
 # Installation
 1. To install Java on the VM, open terminal and run ```sudo apt install default-jdk```
 2. To install Python, run ```sudo apt install python3```
+
+# Compilation and Running
+- Python: python [file_name].py taskNo args
+     * taskNo - which task you want to run from 1-8
+     * args - arguments for the task you are running
+          - Task 1: integer number and boolean("true"/"false")
+          - Task 2: double number
+          - Task 3: integer number
+          - Task 4-8: does NOT ake any argument
+- Java:
+     * In JavaExercises/src, execut javac *.java
+     * Execute java [ClassName] to execute the program (Your class should be Main but you can run the other classes)
+
 # Python Exercises
 1. (refactoring) Mikhail wrote a function called returnStuff a while ago to help with dump autonomy, but now nobody in the club can understand how it works! Help us make this code more understandable. The specificaitons are below.
     * The dump decision depends on two factors: the amount of regolith in the bin (a number), and whether we're in construction mode (a boolean).
