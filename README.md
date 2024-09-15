@@ -36,7 +36,9 @@
    -  Null Terminator - indicates that end of a packet and will come with the value "TERM".
 
   Your job is to parse the stream of bytes and put significant values in an array to return. Here is what your array should include:
+  
   [Motor Value 1, Motor Value 2, Motor Value 3, Motor Value 4, Actuator Current Value, Ultrasound Values..., LED value]
+  
   ** Bonus: Using motor values, decide if robot is going straight or turning and if so, which direction it is turning (right or left). Place that value at the end of the array.
 
   
