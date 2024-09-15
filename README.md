@@ -19,7 +19,7 @@
     * However, the function is really slow. I'm trying to compute the 100th skibonacci number and it's taking ages. Help me optimize my code.
     * *Bonus: If you like math, see if you can find the sublinear solution*
 4. (data wrangling) I have some weather data in resources/weather_long.csv.  This data is in *long format*, meaning it has a few columns to represent a lot of fields. Convert it to wide format, where the columns are City, Month, temperature, humidity, precipitation, wind speed, and air quality index. That way, we can more easily see what was going on in each city in each month. Output your data in a file called weather_wide.csv.
-5. (parsing a byte message) Your dumb robot with a wheel and a single arm is receiving a byte message on its serial port and your job is to decode what it means so you can send it up to the user interface. Here is what the byte message looks like:
+5. (parsing byte messages) Your dumb robot with a wheel and a single arm is receiving a byte message on its serial port and your job is to decode what it means so you can send it up to the user interface. Here is what the byte message looks like:
 
    execution flag | motor current values | actuator direction | actuator current value | ultrasound start flag | ultrasound values | ultrasound end flag | led on/off | hash of byte string | null terminator
 
@@ -42,17 +42,20 @@
   ** Bonus: Using motor values, decide if robot is going straight or turning and if so, which direction it is turning (right or left). Place that value at the end of the array.
 
   
-6. For this problem, you will be given an NxM grid where N and M are randomly selected. There are 0s randomly placed in the grid which represent obstacles. Your robot starts in the top-left hand corner of the grid at position (0,0) and is supposed to get to the bottom-right hand corner (N-1, M-1). Your job is to compute the total number of possible paths that the robot can take without hitting the 0s. If non exist, return 0. Otherwvise, return the number of paths.
+6. (matrix problem) For this problem, you will be given an NxM grid where N and M are randomly selected. There are 0s randomly placed in the grid which represent obstacles. Your robot starts in the top-left hand corner of the grid at position (0,0) and is supposed to get to the bottom-right hand corner (N-1, M-1). Your job is to compute the total number of possible paths that the robot can take without hitting the 0s. If none exist, return 0. Otherwvise, return the number of paths.
 
-7. (json read and write) For this problem, you will read in a JSON file with your calendar called events.json. Here is what you need to do:
+  May be helpful to write test cases with example grids.
+
+8. (json read and write) For this problem, you will read in a JSON file with your calendar called events.json. Here is what you need to do:
    -  Your holidays are out of order. Using the "date" field, reorder them.
    -  You have events on your calendar with the same title. Consolidate those events into a single event.
         * Events with the same 'title' may have different dates. Use the latest date as your new date.
         * Concatenate the descriptions into a single description for your new event.
-8. (read files) Read some ROS logging info in /logs/feedbackLog.txt. In that file, you want to check for 2 conditiojns and report when the condition occurred:
+9. (read files) Read some ROS logging info in /logs/feedbackLog.txt. In that file, you want to check for 2 conditiojns and report when the condition occurred:
    - Check if motor current is above 4 Amps in which case the motor is overworking.
    - Check if sensor output voltage is above 3 V is which case it is being triggered.
-In both cases, append the datetime to an array and return the final array.
+   
+   In both cases, append the datetime to an array and return the final array.
 
 # Java Exercises
 1. (test-driven development) Oh no! Someone wrote a whole load of spaghetti code for our MaxFinder class. It looks like it's passing our 1 unit test, but I'm suspicious of it. 
