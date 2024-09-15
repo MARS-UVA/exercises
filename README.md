@@ -14,6 +14,23 @@
      * In JavaExercises/src, execute javac *.java
      * Execute java [ClassName] to execute the program (Your class should be Main but you can run the other classes)
 
+# Git Quick Guide
+- git pull
+- git add [file path]
+- git commit -m "Commit message..."
+- git push
+- Merging branches
+  * git checkout [branch to merge code into]
+  * git merge [branch to merge from]
+- Rollback changes
+  * Reverting to previous commit and effectively cancelling out previous commits:
+    - git revert HEAD
+    - git revert HEAD~3
+    - git revert [hash to revert back to]
+  * Reset to previous commit moves the HEAD pointer to the commit corrresponding to the hash
+    - git reset [hash to reset HEAD at]
+
+
 # Python Exercises
 1. (refactoring) Mikhail wrote a function called returnStuff a while ago to help with dump autonomy, but now nobody in the club can understand how it works! Help us make this code more understandable. The specificaitons are below.
     * The dump decision depends on two factors: the amount of regolith in the bin (a number), and whether we're in construction mode (a boolean).
