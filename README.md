@@ -28,7 +28,7 @@
     - ```git revert HEAD~3```
     - ```git revert [hash to revert back to]```
   * Reset to previous commit moves the HEAD pointer to the commit corrresponding to the hash
-    - git reset [hash to reset HEAD at]
+    - ```git reset [hash to reset HEAD at]```
 
 
 # Python Exercises
@@ -98,3 +98,7 @@
     * Make sure the answer is an integer (int).
     * Write a test for the boiling point of water (100C = 212F). in Main.java.
     * Write a test for negative values to ensure your code handles those correctly (-10C = 14F).
+
+# Linux Exercises
+1. Oh no! I put the log in the wrong place. The file is called otherLog.txt, and I accidentally put it in resources. It should go in logs. Please move it!
+2. 
