@@ -1,6 +1,6 @@
 ## Important Linux Commands
 ### Basic Filesystem commands
-1) pwd - present working directory
+1) **pwd** - present working directory
     - Usage: pwd
     - Shows you the current directory path from root to your current working directory
 1) cd - changing directory
@@ -12,6 +12,9 @@
      - Usage for renaming files: mv [source file name] [new name for file]
      - Usage for moving files: mv [file name to move] [path of directory to move to]
 3) ls - listing files and directories within present working directory
+4) rmdir - remove a, note, *empty* directory
+5) rm - remove a file
+     - If you want to remove a non-empty folder, use rm -rf [directory to remove]. The -rf flag means 'recursive force'.
 4) grep - pattern matching using regular expressions
      - Usage: grep [regex to search for] [path to file you wish to search]
      - Regular Expression examples:
@@ -35,9 +38,19 @@
 
 ### Shell Scripting
 All of the above Linux commands and more can be run in a unified file called an .sh or shell file. The shell file allows you to automate Linux processes with ease.
-
+We will give a quick demo of shell scripting.
 
 ### Cron Jobs
-Linux allows you to run chronological jobs at specific intervals f
+Linux allows you to run chronological jobs at specific intervals.
+If you have a command you want to run or shell script at specified time periods, use *crontab -e* to launch an editor for your new cronjob.
+Add '* * * * * [linux command to run]' to your crontab.
+The 5 asterisks specify certain parameters for the frequency of your cronjob runs:
+1) What minute of every hour from 0-59
+2) What hour of every day from 0-23
+3) What day of every month from 0-31
+4) What month of every year from 1-12
+5) Which weekday of every week from 0-6
+
+*tail -f /var/log/syslog* to list as of currently executed cronjobs.
 
 ### Practice Tasks:
