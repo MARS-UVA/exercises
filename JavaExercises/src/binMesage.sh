@@ -2,4 +2,4 @@
 
 PYTHON_SCRIPT="../../PythonExercises/BinMessage.py"
 
-python "$PYTHON_SCRIPT"
+python3 "$PYTHON_SCRIPT"
