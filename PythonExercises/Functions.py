@@ -29,10 +29,13 @@ def getSkibonacci(n):
 
 # Task 4 - Easy
 def weatherDataParser():
-    with open('weather_long.csv') as x:
+    with open('weather_long.csv', newline='') as x:
         reader = csv.reader(x)
-        df = pd.DataFrame(reader, columns=['City', 'Month', 'Type', 'Value'])
-    pass
+        wide = reader.pivot_table(index=["City", "Month"], 
+                                columns='Type',
+                                values='Value')
+        return wide
+        
 
 # Task 5 - Easy
 def parseMessageArray(msgArr):
