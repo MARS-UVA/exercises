@@ -101,4 +101,3 @@
 
 # Linux Exercises
 1. Oh no! I put the log in the wrong place. The file is called otherLog.txt, and I accidentally put it in resources. It should go in logs. Please move it!
-2. 
