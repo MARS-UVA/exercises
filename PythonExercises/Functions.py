@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import sys
 import random
+import csv
+from turtle import pd 
 from BinMessage import generateByteString
 
 # Task 1 - Easy
@@ -27,12 +29,14 @@ def getSkibonacci(n):
 
 # Task 4 - Easy
 def weatherDataParser():
-    # Your code goes here
+    with open('weather_long.csv') as x:
+        reader = csv.reader(x)
+        df = pd.DataFrame(reader, columns=['City', 'Month', 'Type', 'Value'])
     pass
 
 # Task 5 - Easy
 def parseMessageArray(msgArr):
-    # You code goes here
+    
     pass
 
 # Task 6 - Easy/Med
