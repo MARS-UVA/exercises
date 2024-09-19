@@ -1,6 +1,7 @@
 # Installation
 1. To install Java on the VM, open terminal and run ```sudo apt install default-jdk```
 2. To install Python, run ```sudo apt install python3```
+3. 2. To install Python, run ```sudo apt install python3-pip```
 
 # Compilation and Running
 - Python: ```python3 [file_name].py [taskNo] [args]```
