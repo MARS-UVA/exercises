@@ -5,13 +5,12 @@ from BinMessage import generateByteString
 
 # Task 1 - Easy
 def returnStuff(num, boolean):
-    if num > 5:
-        if boolean == True:
-           return 2
-        else:
-           return 3
-    if num <= 5:
+    if num > 5 and boolean == True:
+        return 2
+    if num <= 5 and (boolean == True or boolean == False):
         return 1
+    if num > 5 and boolean == False:
+        return 3
 
 # Task 2 - Easy
 def celsiusToFahr(cel):
@@ -19,10 +18,10 @@ def celsiusToFahr(cel):
 
 # Task 3 - Easy
 def getSkibonacci(n):
-    f = [1, 1]
-    for i in range(2, n):
-       f.append(2 * f[i - 2] + f[i - 3])
-    return f[n - 1]
+    if n <= 2:
+        return 1
+    else:
+        return 2 * getSkibonacci(n - 2) + getSkibonacci(n - 3)
 
 # Task 4 - Easy
 def weatherDataParser():
