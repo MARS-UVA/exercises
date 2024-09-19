@@ -4,7 +4,6 @@ import random
 from BinMessage import generateByteString
 
 # Task 1 - Easy
-#Hello
 def returnStuff(num, boolean):
     if num > 5 and boolean == True:
         return 2
