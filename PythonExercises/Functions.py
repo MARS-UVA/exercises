@@ -1,33 +1,31 @@
 #!/usr/bin/env python3
 import sys
 import random
+import numpy as np
+import pandas as pd
+import json
 from BinMessage import generateByteString
 
 # Task 1 - Easy
-def returnStuff(num, boolean):
-    if num > 5 and boolean == True:
-        return 2
-    if num <= 5 and (boolean == True or boolean == False):
-        return 1
-    if num > 5 and boolean == False:
-        return 3
+def returnStuff(regolith, construction):
+    return [1,[2,3][construction]][regolith>5]
 
 # Task 2 - Easy
 def celsiusToFahr(cel):
-    #Your code goes here
-    pass
+    return int(round(cel*1.8+32))
 
 # Task 3 - Easy
 def getSkibonacci(n):
-    if n <= 2:
-        return 1
-    else:
-        return 2 * getSkibonacci(n - 2) + getSkibonacci(n - 3)
+    arr = [1,1,1]
+    while len(arr)<n:
+        arr.append(2*arr[-2]+arr[-3])
+    return arr[n]
 
 # Task 4 - Easy
 def weatherDataParser():
-    # Your code goes here
-    pass
+    weatherArr = pd.read_csv("/../resources/weather_long.csv")
+    res = weatherArr.pivot(index=['City','Month'],columns='Type', values='Value')
+    res.to_csv("weather_wide.csv",index=True)
 
 # Task 5 - Easy
 def parseMessageArray(msgArr):
@@ -36,12 +34,25 @@ def parseMessageArray(msgArr):
 
 # Task 6 - Easy/Med
 def countAllPossiblePaths(grid):
-    # You code goes here
-    pass
+    cts = [[0 for j in grid[i]]for i in range(len(grid))]
+    countHelper(grid,0,0,cts)
+    print(cts)
+    return cts[len(grid)-1][len(grid[0])-1]
+
+def countHelper(grid,i,j,cts):
+    m,n = len(grid)-1,len(grid[0])-1
+    if(i>m or j>n or not grid[i][j]): return
+    if i==0 and j==0: cts[i][j]=1
+    elif i==0: cts[i][j] = cts[i][j-1]
+    elif j==0: cts[i][j] = cts[i-1][j]
+    else: cts[i][j] = cts[i-1][j]+cts[i][j-1]
+    countHelper(grid,i+1,j,cts)
+    countHelper(grid,i,j+1,cts)
 
 # Task 7 - Easy/Med
 def consolidateDuplicateEntries():
-    # Your code goes here
+    file = open('events.json')
+    dct = json.load(file)
     pass
 
 # Task 8 - Easy/Med
