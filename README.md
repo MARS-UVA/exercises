@@ -4,18 +4,20 @@
 3. 2. To install the Python Package Manager called pip, run ```sudo apt install python3-pip```
 
 # Compilation and Running
-- Python: ```python3 [file_name].py [taskNo] [args]```
+- Python: ```python3 Functions.py [taskNo] [args]``` (or ```python Functions.py [taskNo] [args]`` on Windows)
      * taskNo - which task you want to run from 1-8
      * args - arguments for the task you are running
           - Task 1: integer number and boolean("true"/"false")
           - Task 2: double number
           - Task 3: integer number
           - Task 4-8: does NOT ake any argument
+      
 - Java:
      * In JavaExercises/src, execute ```javac *.java```
      * Execute ```java [ClassName]``` to execute the program (Your class should be Main but you can run the other classes)
 
 # Git Quick Guide
+- Fork the repo on Github and clone it using HTTPS (```git clone <url>```)
 - ```git pull```
 - ```git add [file path]```
 - ```git commit -m "Commit message..."```
