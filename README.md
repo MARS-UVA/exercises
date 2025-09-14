@@ -33,7 +33,7 @@
 
 
 # Python Exercises
-1. (refactoring) Mikhail wrote a function called returnStuff a while ago to help with dump autonomy, but now nobody in the club can understand how it works! Help us make this code more understandable. The specificaitons are below.
+1. (refactoring) Mikhail wrote a function called returnStuff a while ago to help with dump autonomy, but now nobody in the club can understand how it works! Help us make this code more understandable. The specifications are below.
     * The dump decision depends on two factors: the amount of regolith in the bin (a number), and whether we're in construction mode (a boolean).
     * If there's more than 5 cubic inches in the bin, we will dump. The decision is to either
         * dump immediately (code 2) if we're in construction mode
